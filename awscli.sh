@@ -10,8 +10,8 @@ SUBNET_PUBLIC_NAME="public-subnet"
 SUBNET_PRIVATE_CIDR="10.0.2.0/24"
 SUBNET_PRIVATE_AZ="us-east-1b"
 SUBNET_PRIVATE_NAME="private-subnet"
-PUBLIC_KP="pubkey10"
-PRIVATE_KP="prikey10"
+PUBLIC_KP="pubkey11"
+PRIVATE_KP="prikey11"
 AMI_ID="ami-052efd3df9dad4825"
 
 
