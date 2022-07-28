@@ -127,4 +127,4 @@ sleep 1m
 
 #creating ec2 in public-subnet
 INSTANCE_ID_1=$(aws ec2 run-instances --image-id $AMI_ID --count 1 --instance-type t2.micro --key-name $PUBLIC_KP --security-group-ids $SG_ID --subnet-id $SUBNET_PUBLIC_ID --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=MyPublicInstance}]' --user-data file://docker.sh --region $AWS_REGION)
-echo "INSTANCE ID 1 '$INSTANCE_ID_1' CREATED"
+echo "INSTANCE ID 1 '$INSTANCE_ID_1' CREATED" 
